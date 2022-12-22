@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    align-items: center;
+    background-image: url(./img/wp2300367.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.valute{
+    margin-top: 20px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+header .text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.convert{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+}
+.container {
+    border-radius: 15px;
+	max-width: 500px;
+	min-height: 16em;
+	margin: 1em auto 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+a:hover,
+a.focus{
+    text-shadow: 0 0 5px rgb(255, 166, 0);
+    margin-left: 0.5em;
+    outline: none;
+    position: relative;
+}
+a::before{
+    position: absolute;
+    left: -1em;
+    content: ">";
+    color: transparent;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+    line-height: 1.5em;
+    transition: margin .2s ease-in-out;
+    font-size: xx-large;
+}
